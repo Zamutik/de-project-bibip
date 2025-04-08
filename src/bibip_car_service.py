@@ -240,5 +240,4 @@ class CarService:
                 result.append(ModelSaleStats(car_model_name=car[0],
                                             brand=car[1],
                                             sales_number=wer[k[0]]))
-            print(result[:3])
             return result[:3]
