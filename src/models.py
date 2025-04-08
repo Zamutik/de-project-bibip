@@ -38,7 +38,7 @@ class Sale(BaseModel):
     car_vin: str
     sales_date: datetime
     cost: Decimal
-    is_deleted: Optional[bool] = False
+
 
     def index(self) -> str:
         return self.car_vin
